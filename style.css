@@ -1,0 +1,12 @@
+/* font-family: "Cinzel", serif;
+font-family: "Poppins", sans-serif; */
+h1,
+p {
+  text-align: center;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Cinzel", serif;
+}
