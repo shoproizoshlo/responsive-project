@@ -53,13 +53,16 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-size: 64px;
+  padding: 5px;
 }
 .project-description {
   font-size: 16px;
   line-height: 30px;
   color: rgba(39, 33, 66, 0.7);
+  text-align: justify;
 }
-.col-md-6 {
+.col-md-6,
+.col-6 {
   margin: auto;
 }
 .btn-detail {
@@ -72,4 +75,17 @@ h1 {
   line-height: 24px;
   color: var(--branding-color);
   text-align: center;
+}
+.row {
+  margin: 100px 5px;
+}
+@media (max-width: 600px) {
+  h1,
+  .project-name {
+    font-size: 50px;
+  }
+
+  .col-md-6 {
+    padding: 0;
+  }
 }
