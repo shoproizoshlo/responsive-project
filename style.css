@@ -61,8 +61,8 @@ h1 {
   color: rgba(39, 33, 66, 0.7);
   text-align: justify;
 }
-.col-md-6,
-.col-6 {
+.col-md,
+.col {
   margin: auto;
 }
 .btn-detail {
