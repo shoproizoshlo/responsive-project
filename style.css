@@ -76,7 +76,7 @@ h1 {
   color: var(--branding-color);
   text-align: center;
 }
-.row {
+.row-project {
   margin: 100px 5px;
 }
 @media (max-width: 600px) {
@@ -88,4 +88,37 @@ h1 {
   .col-md-6 {
     padding: 0;
   }
+}
+.about-hero {
+  font-family: var(--default-font-family);
+  color: var(--default-color);
+  margin: 20px 5px;
+}
+.about-hero h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+}
+.front-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+.about-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.hero-photo {
+  border-radius: 20px;
+}
+.hero-row {
+  padding: 80px;
+}
+.hero-description {
+  padding: 70px;
+}
+.btn-project {
+  margin: 30px 0;
 }
