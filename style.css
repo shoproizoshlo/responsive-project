@@ -135,3 +135,7 @@ h4 {
 .image-work {
   border-radius: 20px;
 }
+.container-contact {
+  padding: 160px 20px;
+  text-align: center;
+}
