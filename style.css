@@ -9,8 +9,8 @@
 @media (max-width: 600px) {
   h1,
   h2 {
-    font-size: 44px;
-    line-height: 56px;
+    font-size: 36px;
+    line-height: 46px;
   }
   .hero {
     padding: 80px 20px;
@@ -28,6 +28,12 @@
     margin-left: 5px;
     font-size: 10px;
   }
+  footer .btn-branding {
+    margin: 15px;
+  }
+}
+.page {
+  padding: 20px;
 }
 nav {
   padding: 20px 0;
@@ -60,7 +66,8 @@ nav li.active a {
   color: var(--branding-color);
 }
 h1,
-h2 {
+h2,
+h3 {
   color: #000000;
   font-family: var(--heading-font-family);
   font-weight: 700;
@@ -74,10 +81,23 @@ h2 {
   line-height: 86px;
 }
 h3 {
+  font-size: 48px;
+  line-height: 64px;
+}
+h4,
+h5 {
+  color: #000000;
   font-family: var(--default-font-family);
+  font-weight: 700;
+}
+h4 {
   font-size: 36px;
   line-height: 54px;
-  font-weight: 700;
+}
+h5 {
+  margin: 15px;
+  font-size: 24px;
+  line-height: 36px;
 }
 p {
   color: var(--default-color);
@@ -113,6 +133,7 @@ p {
   padding: 20px;
 }
 .col-md,
+.col-sm,
 .col {
   margin: auto;
 }
@@ -129,7 +150,7 @@ p {
   transition: all 100ms ease-in-out;
 }
 .row-project {
-  margin: 100px 15px;
+  margin: 100px 5px;
 }
 
 .about {
@@ -149,13 +170,13 @@ p {
   border-radius: 20px;
 }
 .heading-work {
-  padding: 160px 120px 40px 120px;
+  padding: 160px 40px;
 }
 .row-work {
-  margin: 10px 15px;
+  margin: 0 15px;
   text-align: center;
 }
-h4 {
+h5 {
   margin: 15px;
   font-family: var(--default-font-family);
   font-weight: 700;
@@ -175,6 +196,47 @@ h4 {
   padding: 160px 20px;
   text-align: center;
 }
-a {
+/* a {
   color: var(--branding-color);
+} */
+.inquiry {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+footer p {
+  color: var(--default-color-light);
+  font-size: 18px;
+  line-height: 27px;
+}
+.footer-contact {
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: var(--default-color);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+footer a:hover {
+  color: var(--branding-color);
+}
+.fa-brands {
+  text-decoration: none;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px;
+  margin: 15px;
+}
+.fa-brands:hover {
+  color: var(--default-color-light);
+}
+.fa-facebook-f {
+  padding: 15px 18px;
 }
