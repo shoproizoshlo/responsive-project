@@ -99,7 +99,8 @@ h5 {
   font-size: 24px;
   line-height: 36px;
 }
-p {
+p,
+small {
   color: var(--default-color);
   font-family: var(--default-font-family);
   font-weight: 400;
@@ -108,7 +109,7 @@ p {
 }
 .hero {
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 .hero p {
@@ -129,7 +130,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  margin: 90px 0 50px 0;
+  margin: 30px 0;
   padding: 20px;
 }
 .col-md,
@@ -150,11 +151,11 @@ p {
   transition: all 100ms ease-in-out;
 }
 .row-project {
-  margin: 100px 5px;
+  margin: 70px 5px;
 }
 
 .about {
-  padding: 160px 20px;
+  padding: 20px 20px;
 }
 
 .about-headline {
@@ -170,19 +171,11 @@ p {
   border-radius: 20px;
 }
 .heading-work {
-  padding: 160px 40px;
+  padding: 60px 40px;
 }
 .row-work {
   margin: 0 15px;
   text-align: center;
-}
-h5 {
-  margin: 15px;
-  font-family: var(--default-font-family);
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 36px;
-  color: rgba(0, 0, 0, 1);
 }
 .row-work p {
   font-size: 14px;
@@ -193,12 +186,9 @@ h5 {
   border-radius: 20px;
 }
 .container-contact {
-  padding: 160px 20px;
+  padding: 50px 20px;
   text-align: center;
 }
-/* a {
-  color: var(--branding-color);
-} */
 .inquiry {
   background-color: var(--secondary-color);
   padding: 20px;
@@ -239,4 +229,10 @@ footer a:hover {
 }
 .fa-facebook-f {
   padding: 15px 18px;
+}
+.author,
+.author p,
+.author a {
+  font-size: 10px;
+  text-align: center;
 }
