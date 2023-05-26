@@ -189,6 +189,14 @@ small {
   padding: 50px 20px;
   text-align: center;
 }
+.container-contact a {
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: var(--default-color);
+}
+.container-contact a:hover {
+  color: var(--branding-color);
+}
 .inquiry {
   background-color: var(--secondary-color);
   padding: 20px;
