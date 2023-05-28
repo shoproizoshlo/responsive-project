@@ -221,15 +221,15 @@ footer a:hover {
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 76px;
-    line-height: 128px;
+    font-size: 64px;
+    line-height: 84px;
   }
   h2 {
     font-size: 44px;
     line-height: 86px;
   }
   h3 {
-    font-size: 28px;
+    font-size: 36px;
     line-height: 64px;
   }
   .row-project {
@@ -256,7 +256,7 @@ footer a:hover {
 
 @media (max-width: 300px) {
   h1 {
-    font-size: 55px;
+    font-size: 50px;
     line-height: 70px;
   }
   h2 {
@@ -264,7 +264,7 @@ footer a:hover {
     line-height: 46px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 34px;
   }
   h4 {
